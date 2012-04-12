@@ -1,0 +1,137 @@
+# EESchema Netlist Version 1.1 created  Mon 02 Apr 2012 11:25:40 PM MST
+(
+ ( /4F7160BA $noname  P1 CONN_2 {Lib=CONN_2}
+  (    1 N-000008 )
+  (    2 N-000011 )
+ )
+ ( /4F7160A6 $noname  P3 CONN_2 {Lib=CONN_2}
+  (    1 N-000008 )
+  (    2 N-000007 )
+ )
+ ( /4F6AB030 $noname  P2 CONN_2 {Lib=CONN_2}
+  (    1 N-000008 )
+  (    2 N-000009 )
+ )
+ ( /4F6AAF6A $noname  K1 CONN_3 {Lib=CONN_3}
+  (    1 N-000002 )
+  (    2 GND )
+  (    3 N-000017 )
+ )
+ ( /4F6AAEB8 $noname  R2 1k2 {Lib=R}
+  (    1 N-000013 )
+  (    2 N-000002 )
+ )
+ ( /4F6AAEA6 $noname  R1 1k2 {Lib=R}
+  (    1 N-000016 )
+  (    2 N-000017 )
+ )
+ ( /4F6AAE8D $noname  R4 220 {Lib=R}
+  (    1 N-000009 )
+  (    2 N-000012 )
+ )
+ ( /4F6AAE83 $noname  R3 220 {Lib=R}
+  (    1 N-000009 )
+  (    2 N-000014 )
+ )
+ ( /4F6AAE3B $noname  U1 OPTO-TRIAC {Lib=OPTO-TRIAC}
+  (    1 N-000016 )
+  (    2 GND )
+  (    3 ? )
+  (    4 N-000015 )
+  (    5 ? )
+  (    6 N-000014 )
+ )
+ ( /4F6AAE28 $noname  U2 OPTO-TRIAC {Lib=OPTO-TRIAC}
+  (    1 N-000013 )
+  (    2 GND )
+  (    3 ? )
+  (    4 N-000010 )
+  (    5 ? )
+  (    6 N-000012 )
+ )
+ ( /4F6AAE14 $noname  U4 TRIAC {Lib=TRIAC}
+  (    1 N-000011 )
+  (    2 N-000009 )
+  (    3 N-000010 )
+ )
+ ( /4F6AAE0D $noname  U3 TRIAC {Lib=TRIAC}
+  (    1 N-000007 )
+  (    2 N-000009 )
+  (    3 N-000015 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ U2 2
+ K1 2
+ U1 2
+Net 2 "" ""
+ K1 1
+ R2 2
+Net 7 "" ""
+ U3 1
+ P3 2
+Net 8 "" ""
+ P1 1
+ P2 1
+ P3 1
+Net 9 "" ""
+ P2 2
+ R4 1
+ U4 2
+ R3 1
+ U3 2
+Net 10 "" ""
+ U4 3
+ U2 4
+Net 11 "" ""
+ U4 1
+ P1 2
+Net 12 "" ""
+ R4 2
+ U2 6
+Net 13 "" ""
+ U2 1
+ R2 1
+Net 14 "" ""
+ U1 6
+ R3 2
+Net 15 "" ""
+ U1 4
+ U3 3
+Net 16 "" ""
+ U1 1
+ R1 1
+Net 17 "" ""
+ K1 3
+ R1 2
+}
+#End

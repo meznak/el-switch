@@ -1,0 +1,256 @@
+EESchema Schematic File Version 2  date Mon 02 Apr 2012 11:25:36 PM MST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:EL_turn_signal-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "3 apr 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7500 2650 7500 4200
+Wire Wire Line
+	7700 2650 7700 4200
+Wire Wire Line
+	7700 4200 8100 4200
+Wire Wire Line
+	7700 2800 8100 2800
+Wire Wire Line
+	8100 4400 8000 4400
+Wire Wire Line
+	8000 4400 8000 5150
+Wire Wire Line
+	8000 5150 7000 5150
+Wire Wire Line
+	7000 5150 7000 5050
+Connection ~ 7500 2800
+Connection ~ 7000 4200
+Wire Wire Line
+	3100 4100 3100 4000
+Wire Wire Line
+	3100 4000 2600 4000
+Wire Wire Line
+	3200 4600 2800 4600
+Wire Wire Line
+	2800 4600 2800 4100
+Wire Wire Line
+	2800 4100 2600 4100
+Wire Wire Line
+	7000 3000 7000 2800
+Wire Wire Line
+	6300 3200 6300 2800
+Wire Wire Line
+	6300 3200 6200 3200
+Wire Wire Line
+	5400 4600 5700 4600
+Wire Wire Line
+	5400 3200 5700 3200
+Wire Wire Line
+	3700 4600 4150 4600
+Wire Wire Line
+	4150 4900 3900 4900
+Wire Wire Line
+	5400 3600 6500 3600
+Wire Wire Line
+	4150 3500 3900 3500
+Connection ~ 3900 4900
+Wire Wire Line
+	4150 3200 3700 3200
+Wire Wire Line
+	6200 4600 6300 4600
+Wire Wire Line
+	6300 4600 6300 4200
+Wire Wire Line
+	7000 4200 7000 4400
+Wire Wire Line
+	5400 5000 6500 5000
+Wire Wire Line
+	2600 3900 2800 3900
+Wire Wire Line
+	2800 3900 2800 3200
+Wire Wire Line
+	2800 3200 3200 3200
+Wire Wire Line
+	6300 2800 7500 2800
+Connection ~ 7000 2800
+Wire Wire Line
+	7000 3650 7000 3750
+Wire Wire Line
+	3900 3500 3900 5300
+Wire Wire Line
+	7000 3750 8000 3750
+Wire Wire Line
+	8000 3750 8000 3000
+Wire Wire Line
+	8000 3000 8100 3000
+Connection ~ 7700 2800
+Wire Wire Line
+	6300 4200 7500 4200
+$Comp
+L CONN_2 P1
+U 1 1 4F7160BA
+P 8450 4300
+F 0 "P1" V 8400 4300 40  0000 C CNN
+F 1 "CONN_2" V 8500 4300 40  0000 C CNN
+	1    8450 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P3
+U 1 1 4F7160A6
+P 8450 2900
+F 0 "P3" V 8400 2900 40  0000 C CNN
+F 1 "CONN_2" V 8500 2900 40  0000 C CNN
+	1    8450 2900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4450 3600
+NoConn ~ 5100 3400
+NoConn ~ 4450 5000
+NoConn ~ 5100 4800
+$Comp
+L CONN_2 P2
+U 1 1 4F6AB030
+P 7600 2300
+F 0 "P2" V 7550 2300 40  0000 C CNN
+F 1 "CONN_2" V 7650 2300 40  0000 C CNN
+	1    7600 2300
+	0    1    -1   0   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 4F6AAF89
+P 3100 4100
+F 0 "#PWR01" H 3100 4100 30  0001 C CNN
+F 1 "GND" H 3100 4030 30  0001 C CNN
+	1    3100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K1
+U 1 1 4F6AAF6A
+P 2250 4000
+F 0 "K1" V 2200 4000 50  0000 C CNN
+F 1 "CONN_3" V 2300 4000 40  0000 C CNN
+	1    2250 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R2
+U 1 1 4F6AAEB8
+P 3450 4600
+F 0 "R2" V 3530 4600 50  0000 C CNN
+F 1 "1k2" V 3450 4600 50  0000 C CNN
+	1    3450 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 4F6AAEA6
+P 3450 3200
+F 0 "R1" V 3530 3200 50  0000 C CNN
+F 1 "1k2" V 3450 3200 50  0000 C CNN
+	1    3450 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 4F6AAE8D
+P 5950 4600
+F 0 "R4" V 6030 4600 50  0000 C CNN
+F 1 "220" V 5950 4600 50  0000 C CNN
+	1    5950 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 4F6AAE83
+P 5950 3200
+F 0 "R3" V 6030 3200 50  0000 C CNN
+F 1 "220" V 5950 3200 50  0000 C CNN
+	1    5950 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L OPTO-TRIAC U1
+U 1 1 4F6AAE3B
+P 4800 3400
+F 0 "U1" H 5000 3700 60  0000 C CNN
+F 1 "OPTO-TRIAC" H 4900 3100 60  0000 C CNN
+	1    4800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPTO-TRIAC U2
+U 1 1 4F6AAE28
+P 4800 4800
+F 0 "U2" H 5000 5100 60  0000 C CNN
+F 1 "OPTO-TRIAC" H 4900 4500 60  0000 C CNN
+	1    4800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TRIAC U4
+U 1 1 4F6AAE14
+P 7000 4800
+F 0 "U4" H 6750 5150 70  0000 C CNN
+F 1 "TRIAC" H 6700 4550 60  0000 C CNN
+	1    7000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TRIAC U3
+U 1 1 4F6AAE0D
+P 7000 3400
+F 0 "U3" H 6750 3750 70  0000 C CNN
+F 1 "TRIAC" H 6700 3150 60  0000 C CNN
+	1    7000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 4F6AADCC
+P 3900 5300
+F 0 "#PWR02" H 3900 5300 30  0001 C CNN
+F 1 "GND" H 3900 5230 30  0001 C CNN
+	1    3900 5300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Mon 26 Mar 2012 11:42:53 PM MST
+
+BeginCmp
+TimeStamp = /4F6AAF6A;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6AB030;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7160A6;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7160BA;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6AAEA6;
+Reference = R1;
+ValeurCmp = 1k2;
+IdModule  = R5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6AAEB8;
+Reference = R2;
+ValeurCmp = 1k2;
+IdModule  = R5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6AAE83;
+Reference = R3;
+ValeurCmp = 220;
+IdModule  = R5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6AAE8D;
+Reference = R4;
+ValeurCmp = 220;
+IdModule  = R5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6AAE3B;
+Reference = U1;
+ValeurCmp = OPTO-TRIAC;
+IdModule  = DIP-6__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6AAE28;
+Reference = U2;
+ValeurCmp = OPTO-TRIAC;
+IdModule  = DIP-6__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6AAE0D;
+Reference = U3;
+ValeurCmp = TRIAC;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6AAE14;
+Reference = U4;
+ValeurCmp = TRIAC;
+IdModule  = TO220;
+EndCmp
+
+EndListe
